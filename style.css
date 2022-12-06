@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    width: 100%;
+     position: sticky;
+     left: 0;
+     top: 0;
+     box-shadow: 0px 5px 8px rgba(0,0,0,.5);
+     z-index: 10;
+}
+navbar-brand{
+    font-weight: 600;
+
+}
+.nav-link{
+    color: white !important;
+    border-bottom: 1px solid white transparent;
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+
+#home{
+    background: url(/img/bg.png);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#home{
+    display: flex;
+    align-items: center;
+}
+.col-12 h1{
+    color: orange;
+    font-size: xxx-large;
+    text-shadow: 2px 1px black;
+}
+.col-12 h1{
+    padding-bottom: 10px;
+}
+.col-12 p{
+    padding-top: 20px;
+}
+/* ------------------------card-group----------------- */
+.card-deck{
+    min-height: 100vh;
+}
+
+#ourstory{
+    min-height: 100vh;
+}
+.colour{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+
+/* ?---------------------- */
+.sample{
+    background-color: dimgray;
+    height: auto;
+}
+.contentpage{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+.explore{
+    background: url(/img/mount.png);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.world{
+    display: flex;
+    align-items: center;
+    margin-top: 18%;
+    float: right;
+    
+}
+
+.contact1{
+    background-color: orange;
+    height: auto;
+}
+ul li{
+   
+    list-style-type: none;
+    cursor: pointer;
+}
+i{
+    padding: 10px;
+   
+    border-radius: 50%;
+}
+i:hover{
+    background-color: red;
+}
+
+#about{
+    background-color: darkslategray;
+    color: whitesmoke;
+}
